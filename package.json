@@ -1,0 +1,29 @@
+{
+  "name": "jake-yunkee-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio website showcasing projects and skills",
+  "main": "index.html",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .",
+    "build": "echo 'No build step required'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iakwvos/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web-development",
+    "full-stack"
+  ],
+  "author": "Jake Yunkee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Iakwvos/portfolio/issues"
+  },
+  "homepage": "https://iakwvos.github.io/portfolio",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+} 
