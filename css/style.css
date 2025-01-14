@@ -44,6 +44,7 @@ a {
     height: 100%;
     border: 1px solid rgba(255, 255, 255, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2rem;
 }
 
 .project-card:hover {
@@ -1048,4 +1049,41 @@ body.modal-open {
 
 @keyframes spin {
     to { transform: rotate(360deg); }
+}
+
+/* Project Row Spacing */
+.section-projects .row {
+    margin-bottom: -2rem;
+}
+
+.section-projects .col-lg-4 {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 991px) {
+    .project-card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .section-projects .row {
+        margin-bottom: -1.5rem;
+    }
+    
+    .section-projects .col-lg-4 {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .project-card {
+        margin-bottom: 1.25rem;
+    }
+    
+    .section-projects .row {
+        margin-bottom: -1.25rem;
+    }
+    
+    .section-projects .col-lg-4 {
+        margin-bottom: 1.25rem;
+    }
 } 
